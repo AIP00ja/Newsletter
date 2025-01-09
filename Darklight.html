@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video{
+            height: auto;
+            width: 100%;
+        }
+        .mor{
+            display: block;
+            
+        }
+        .night{
+            display: none;
+        }
+        h1{
+            position:absolute;
+            color: aqua;
+            
+        }
+        @media(prefers-color-scheme:dark){
+            .mor{
+                display: none;
+            }
+            .night{
+                display: block;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 class="mor">Good Morning!!</h1>
+    <h1 class="night">Good Night!!</h1>
+    <video src="morning.mp4" autoplay muted loop class="mor"></video>
+    <video src="night.mp4" autoplay muted loop class="night"></video>
+</body>
+</html>

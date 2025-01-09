@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: blueviolet;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        @media(max-width:500px){
+            nav{
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+            }
+            a{
+                text-align: center;
+                padding: 5px;
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+        <a href="">Registration</a>
+    </nav>
+</body>
+</html>

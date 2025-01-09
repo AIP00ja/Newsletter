@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        margin: 20px;
+        padding: 0;
+    }
+    nav{
+        background-color: blueviolet;
+        padding: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    a{
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+    }
+    .card{
+        margin-top: 20px;
+        height: 500px;
+        width: 100%;
+        background-color:lightcyan;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .Box1{
+        margin-top: 50px;
+        height: 400px;
+        width: 300px;
+        border: 2px solid;
+        
+        }
+    .Box2{
+        margin-top: 50px;
+        height: 400px;
+        width: 300px;
+        border: 2px solid;
+        }
+     .Box3{
+        margin-top: 50px;
+        height: 400px;
+        width: 300px;
+        border: 2px solid;
+        }
+        .a{
+            margin: 20px;
+            height: 150px;
+            width: 255px;
+            border: 2px solid;
+            background-image: url("https://t3.ftcdn.net/jpg/06/15/49/68/360_F_615496890_W34yB8VDE6n5pehb5QCt1ek5oEvRo9qA.jpg");
+            background-size:cover ;
+        }
+        .b{
+            margin: 20px;
+            height: 150px;
+            width: 255px;
+            border: 2px solid;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRXxfn1j1vKFy8yJeBGl2AS6Dcah-lKgHofg&s");
+            background-size:cover ;
+        }
+        .c{
+            margin: 20px;
+            height: 150px;
+            width: 255px;
+            border: 2px solid;
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA2oASENe7GdCli1KnAl6cnDnuD6lGT60txQ&s");
+            background-size:cover ;
+        }
+        @media(max-width:500px){
+            nav{
+                display: flex;
+                flex-direction: column;
+                background-color: black;
+            }
+            a{
+                text-align: center;
+                padding: 5px;
+                color: white;
+            }
+            .card{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        
+</style>
+</head>
+<body>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About Us</a>
+        <a href="">Contact Us</a>
+        <a href="">Registration</a>
+    </nav>
+   <div class="card">
+
+    <div class="Box1">
+        <div class="a">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tempore! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur reprehenderit eos maiores ad tenetur quidem dolorum. Impedit esse blanditiis consectetur!</p>
+    </div>
+
+    <div class="Box2"> 
+       <div class="b">
+       </div>
+       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tempore! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ad corrupti inventore distinctio aspernatur quo ab voluptas esse optio sed?</p>
+    </div>
+
+    <div class="Box3"> 
+        <div class="c">
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nemo ullam tenetur eos hic vitae animi quidem, recusandae amet asperiores!</p>
+    </div>
+
+   </div>
+   
+    <footer></footer>
+</body>
+</html>
